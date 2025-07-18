@@ -85,9 +85,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/StackSadhuSupport')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+hsRtLzkiVPg0ZTFl')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/StackSadhuSupport')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
