@@ -86,8 +86,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/StackSadhuSupport')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+hsRtLzkiVPg0ZTFl')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/StackSadhuSupport')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/StackSadhubots")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/StackSadhubots")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
@@ -97,8 +97,8 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdiskshortner.link")
-SHORTLINK_API = environ.get("SHORTLINK_API", "36f1ae74ba1aa01e5bd73bdd0bc22aa915443501")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "upshrink.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "a51fb2f5027b7ebeb398d5b0332bac641dc64a48")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
@@ -146,12 +146,12 @@ STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgIAAxkBAAEN4ctn
 
 
 # for Premium 
-IS_PREMIUM = is_enabled('IS_PREMIUM', True)
+IS_PREMIUM = is_enabled('IS_PREMIUM', False)
 PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '10')) # add amount in INR for premium charge pre day 
-UPI_ID = environ.get("UPI_ID", "Send phone Pay Gift Card")
+UPI_ID = environ.get("UPI_ID", "")
 if len(UPI_ID) == 0:
     logger.info('UPI_ID is empty')
-UPI_NAME = environ.get("UPI_NAME", "Gift Card") # add your UPI account name
+UPI_NAME = environ.get("UPI_NAME", "") # add your UPI account name
 if len(UPI_NAME) == 0:
     logger.info('UPI_NAME is empty')
 RECEIPT_SEND_USERNAME = environ.get("RECEIPT_SEND_USERNAME", "@Contact_Admins2bot")
