@@ -38,7 +38,7 @@ if len(BOT_TOKEN) == 0:
 PORT = int(environ.get('PORT', '80'))
 
 # Upload your images to "postimages.org" and get direct link
-PICS = (environ.get('PICS', 'https://ar-hosting.pages.dev/1752811272298.jpg')).split()
+PICS = (environ.get('PICS', 'https://ar-hosting.pages.dev/1752811272298.jpg https://ar-hosting.pages.dev/1752817794222.jpg')).split()
 
 # Bot Admins
 ADMINS = environ.get('ADMINS', '')
