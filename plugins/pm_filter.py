@@ -190,6 +190,7 @@ async def next_page(bot, query):
             ]
         )
     btn.append(
+        [InlineKeyboardButton('☕ Buy Me A cofee ☕', url="https://ar-hosting.pages.dev/1751282168015.jpg")]
         [InlineKeyboardButton('🤑 Buy Premium', url=f"https://t.me/{temp.U_NAME}?start=premium")]
     )
     await query.message.edit_text(cap + files_link + del_msg, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True, parse_mode=enums.ParseMode.HTML)
