@@ -90,16 +90,16 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/StackSadhubots")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/StackSadhubots")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
+DELETE_TIME = int(environ.get('DELETE_TIME', 300)) # Add time in seconds
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 8))
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi english telugu tamil kannada malayalam marathi punjabi').split()]
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "upshrink.com")
-SHORTLINK_API = environ.get("SHORTLINK_API", "a51fb2f5027b7ebeb398d5b0332bac641dc64a48")
-VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "shrinkforearn.in")
+SHORTLINK_API = environ.get("SHORTLINK_API", "8425ed6cbbde9e1b3f4af78969d1bf2ee0b9c890")
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 3600)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '300'))
