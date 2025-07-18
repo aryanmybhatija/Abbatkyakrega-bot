@@ -2,13 +2,13 @@ class script(object):
 
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-I am Auto filter Powerful Movies and Webseries Provider Bot . You can Also Use me Into Your Group ...♻️</b>"""
+ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mysql.com>Mysql</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 
-    MY_OWNER_TXT = """★ Name: Stack Sadhu Bots
+    MY_OWNER_TXT = """★ Name: Stack Sadhu Bots 
 ★ Username: @StackSadhu
 ★ Country: India 🇮🇳"""
 
@@ -63,7 +63,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     HELP_TXT = """👋 Hello {},
     
-I can provide movie and series you want
+I can filter movie and series you want
 Just type you want movie or series in my PM or adding me in to group
 And i have more feature for you
 Just try my commands"""
