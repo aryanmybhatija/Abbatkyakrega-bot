@@ -6,7 +6,7 @@ class script(object):
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mysql.com>Mysql</a>
-★ Language: <a href=https://www.python.org>Python</a>
+★ Language: <a href=https://www.python.org>Python</a>"""
 
     MY_OWNER_TXT = """★ Name: Stack Sadhu Bots 
 ★ Username: @StackSadhu
